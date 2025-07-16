@@ -49,5 +49,25 @@ public class DataInputExercise {
 
         System.out.println("The difference between (A*B) - (C*D) Is: " + difference);
          */
+
+        /* Count a user payment
+        int userNumber, workHours;
+        double hourRate;
+
+        System.out.print("Input the User number: ");
+        userNumber = sc.nextInt();
+
+        System.out.print("Input the User worked hours: ");
+        workHours = sc.nextInt();
+
+        System.out.print("Input the User Hour Rate ($ per hour, e.g: 5.50): ");
+        hourRate = sc.nextDouble();
+
+        double userPayment = hourRate * workHours;
+
+        System.out.println("User Number: " + userNumber);
+        System.out.printf("User Payment: U$ %.2f %n", userPayment);
+
+         */
     }
 }
