@@ -1,6 +1,4 @@
-import java.util.InputMismatchException;
-import java.util.Locale;
-import java.util.Scanner;
+import java.util.*;
 
 public class DataInputExercise {
     public static void main(String[] args) {
@@ -27,7 +25,7 @@ public class DataInputExercise {
             double radius;
             try {
 
-                System.out.print("Write the radius of an circle: ");
+                System.out.print("Write the radius of a circle: ");
                 radius = sc.nextDouble();
 
                 double area = Math.PI * (radius * radius);
@@ -39,6 +37,17 @@ public class DataInputExercise {
             }]
         */
 
+        /* Reading the difference between (A*B) - (C*D) Using a while loop and Scanner
+        List<Integer> intList = new ArrayList<>();
 
+        while(intList.size() < 4){
+            System.out.print("Input an number: ");
+            intList.add(sc.nextInt());
+        }
+
+        int difference = (intList.getFirst() * intList.get(1)) - (intList.get(2) * intList.getLast());
+
+        System.out.println("The difference between (A*B) - (C*D) Is: " + difference);
+         */
     }
 }
