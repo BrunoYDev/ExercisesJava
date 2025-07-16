@@ -38,5 +38,7 @@ public class DataInputExercise {
                 throw new IllegalArgumentException("ONLY NUMBERS ARE ACCEPTED!!");
             }]
         */
+
+
     }
 }
