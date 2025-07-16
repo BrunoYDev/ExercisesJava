@@ -69,5 +69,33 @@ public class DataInputExercise {
         System.out.printf("User Payment: U$ %.2f %n", userPayment);
 
          */
+
+        /* Calculate the total amount of two items value * quantity
+        int obj1Code, obj1Quantity, obj2Code, obj2Quantity;
+        double obj1UnitValue, obj2UnitValue;
+
+        System.out.print("Write the object 1 code: ");
+        obj1Code = sc.nextInt();
+
+        System.out.print("Write the object 1 quantity: ");
+        obj1Quantity = sc.nextInt();
+
+        System.out.print("Write the object 1 unital value: ");
+        obj1UnitValue = sc.nextDouble();
+
+        System.out.print("Write the object 2 code: ");
+        obj2Code = sc.nextInt();
+
+        System.out.print("Write the object 2 quantity: ");
+        obj2Quantity = sc.nextInt();
+
+        System.out.print("Write the object 2 unital value: ");
+        obj2UnitValue = sc.nextDouble();
+
+        double total = (obj1UnitValue * obj1Quantity) + (obj2UnitValue * obj2Quantity);
+
+        System.out.printf("Total Value: U$ %.2f %n", total);
+
+        */
     }
 }
