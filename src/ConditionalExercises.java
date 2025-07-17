@@ -38,6 +38,23 @@ public class ConditionalExercises {
             }
          */
 
+        /* Count the total time of a soccer match
+            int initialHour, finalHour, duration;
 
+            System.out.print("Insert the start hour of the game: ");
+            initialHour = sc.nextInt();
+
+            System.out.print("Insert the final hour of the game: ");
+            finalHour = sc.nextInt();
+
+            if(initialHour < finalHour){
+                duration = finalHour - initialHour;
+            }else{
+                duration = (24 - initialHour) + finalHour;
+            }
+
+            System.out.println("The game total duration is: " + duration + "H");
+
+         */
     }
 }
