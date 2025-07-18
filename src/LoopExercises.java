@@ -94,5 +94,18 @@ public class LoopExercises {
             System.out.println("Diesel: " + dis);
          */
 
+
+        /* Write every Even number between 1 and X(1000)
+            System.out.print("Write a number between 1 and 1000: ");
+            int x = sc.nextInt();
+
+            if(x >= 1 && x <= 1000){
+                for (int i = 0; i < x; i++){
+                    if (i % 2 != 0){
+                        System.out.println(i);
+                    }
+                }
+            }
+         */
     }
 }
