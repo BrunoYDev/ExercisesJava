@@ -125,5 +125,14 @@ public class LoopExercises {
 
             System.out.printf("%d in %n%d out", in, out);
          */
+
+        /* Retrieve the number, the square of the number, and the cube
+            System.out.print("Write an integer positive number: ");
+            int N = sc.nextInt();
+
+            for(int i=1; i<=N; i++){
+                System.out.println(i +" "+ i*i + " " + i*i*i);
+            }
+         */
     }
 }
