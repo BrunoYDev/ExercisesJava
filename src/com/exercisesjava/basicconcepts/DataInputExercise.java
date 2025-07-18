@@ -1,3 +1,5 @@
+package com.exercisesjava.basicconcepts;
+
 import java.util.*;
 
 public class DataInputExercise {
