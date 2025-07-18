@@ -23,7 +23,7 @@ public class LoopExercises {
             System.out.println("Correct Password, you´re in :D ");
          */
 
-        /* Receive two coordinates X and Y and give the quadrant of the point the cartesian plane
+        /* Receive two coordinates X and Y and give the quadrant of the point in the cartesian plane
             int x = 1, y = 1;
 
             while(x != 0 && y != 0){
@@ -46,7 +46,7 @@ public class LoopExercises {
             }
          */
 
-        /* Using while to create a gas station like console
+        /* Using while to create a gas station like console, can use do while to short the code
             int choice;
             int alc = 0;
             int gas = 0;
