@@ -94,7 +94,6 @@ public class LoopExercises {
             System.out.println("Diesel: " + dis);
          */
 
-
         /* Write every Even number between 1 and X(1000)
             System.out.print("Write a number between 1 and 1000: ");
             int x = sc.nextInt();
@@ -106,6 +105,25 @@ public class LoopExercises {
                     }
                 }
             }
+         */
+
+        /* Verify how many number are in the interval [10,20]
+            System.out.print("How many numbers to verify: ");
+            int N = sc.nextInt();
+
+            int in = 0, out = 0;
+
+            for(int i=0; i<N; i++){
+                System.out.print("Add a number to verify: ");
+                int x = sc.nextInt();
+                if(x <= 20 && x >= 10){
+                    in++;
+                }else{
+                    out ++;
+                }
+            }
+
+            System.out.printf("%d in %n%d out", in, out);
          */
     }
 }
