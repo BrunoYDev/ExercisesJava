@@ -37,7 +37,7 @@ To compile and run these exercises on your local machine, you will need:
     cd ExercisesJava/src/com/exercisesjava/
     ```
 
-3.  **Select wich package do you like to test: **
+3.  **Select wich package do you like to test:**
     ```bash
     cd ExercisesJava/src/com/exercisesjava/basicconcepts
     ```
