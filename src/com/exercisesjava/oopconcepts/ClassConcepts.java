@@ -1,8 +1,12 @@
 package com.exercisesjava.oopconcepts;
 
+import java.util.Locale;
+
 public class ClassConcepts {
 
     public static void main(String[] args){
+
+        Locale.setDefault(Locale.US); // Change the format location to US
 
         Product banana = new Product("Banana", 5.30);
 
