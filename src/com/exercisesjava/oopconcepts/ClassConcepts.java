@@ -15,7 +15,9 @@ public class ClassConcepts {
         System.out.printf("Total Banana Value: $ %.2f%n", banana.TotalValueInStock());
 
         banana.SetPrice(6.59);
-        System.out.printf("Total Banana Value: $ %.2f", banana.TotalValueInStock());
+        System.out.printf("Total Banana Value: $ %.2f%n", banana.TotalValueInStock());
+
+        System.out.printf(banana.toString());
     }
 }
 
