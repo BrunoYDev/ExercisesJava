@@ -2,9 +2,14 @@ package com.exercisesjava.oopconcepts;
 
 public class Product {
 
-    String Name;
-    double Price;
+    private String Name;
+    private double Price;
     private int Quantity;
+
+    public Product(String Name,double Price){
+        this.Name = Name;
+        this.Price = Price;
+    }
 
     public double TotalValueInStock(){
         return Price * Quantity;
