@@ -8,6 +8,9 @@ public class ClassConcepts {
 
         banana.AddProducts(10);
 
+        System.out.printf("Total Banana Value: $ %.2f%n", banana.TotalValueInStock());
+
+        banana.SetPrice(6.59);
         System.out.printf("Total Banana Value: $ %.2f", banana.TotalValueInStock());
     }
 }
