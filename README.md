@@ -34,10 +34,15 @@ To compile and run these exercises on your local machine, you will need:
 
 2.  **Navigate to the source directory:**
     ```bash
+    cd ExercisesJava/src/com/exercisesjava/
+    ```
+
+3.  **Select wich package do you like to test: **
+    ```bash
     cd ExercisesJava/src/com/exercisesjava/basicconcepts
     ```
 
-3.  **Compile and run a specific Java file:**
+4.  **Compile and run a specific Java file:**
     For example, to run an exercise named `ConcatExercise.java`:
     ```bash
     # Compile the code
