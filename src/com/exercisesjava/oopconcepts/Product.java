@@ -26,4 +26,11 @@ public class Product {
     public void RemoveProducts(int Quantity){
         this.Quantity -= Quantity;
     }
+
+    public String toString(){
+        return "Product data: %n"
+                + "\tName: " + Name
+                + "%n\tPrice: $ " + Price
+                + "%n\tQuantity: " + Quantity;
+    }
 }
