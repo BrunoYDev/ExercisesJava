@@ -11,6 +11,10 @@ public class Product {
         this.Price = Price;
     }
 
+    public void SetPrice(double price){
+        this.Price = price;
+    }
+
     public double TotalValueInStock(){
         return Price * Quantity;
     }
