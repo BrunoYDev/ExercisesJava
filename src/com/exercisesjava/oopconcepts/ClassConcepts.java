@@ -8,7 +8,7 @@ public class ClassConcepts {
 
         Locale.setDefault(Locale.US); // Change the format location to US
 
-        Product banana = new Product("Banana", 5.30);
+        Product banana = new Product("Banana", 5.30, 1);
 
         banana.AddProducts(10);
 
