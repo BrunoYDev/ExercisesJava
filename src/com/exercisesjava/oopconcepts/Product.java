@@ -6,9 +6,10 @@ public class Product {
     private double Price;
     private int Quantity;
 
-    public Product(String Name,double Price){
+    public Product(String Name,double Price, int Quantity){
         this.Name = Name;
         this.Price = Price;
+        this.Quantity = Quantity;
     }
 
     public void SetPrice(double price){
