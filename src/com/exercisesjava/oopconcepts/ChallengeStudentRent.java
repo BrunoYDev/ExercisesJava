@@ -33,13 +33,13 @@ public class ChallengeStudentRent {
 
         int rentCounter = 0;
         System.out.println(" ");
-        for(int j = 0; j<RoomsToRent.length; j++){
-            if(RoomsToRent[j] != null){
+        for (Student student : RoomsToRent) {
+            if (student != null) {
                 rentCounter++;
                 System.out.println("Rent #" + rentCounter);
-                System.out.println("Name: " + RoomsToRent[j].getName());
-                System.out.println("Email: " + RoomsToRent[j].getEmail());
-                System.out.println("Room: " + RoomsToRent[j].getRoom());
+                System.out.println("Name: " + student.getName());
+                System.out.println("Email: " + student.getEmail());
+                System.out.println("Room: " + student.getRoom());
                 System.out.println(" ");
             }
         }
