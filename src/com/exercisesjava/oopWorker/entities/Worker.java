@@ -78,7 +78,7 @@ public class Worker {
             cal.setTime(contract.getDate());
 
             int contract_year = cal.get(Calendar.YEAR);
-            int contract_month = cal.get(Calendar.MONTH);
+            int contract_month = 1 + cal.get(Calendar.MONTH);
 
             if(contract_year == year && contract_month == month){
                 sum += contract.totalValue();
