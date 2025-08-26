@@ -4,6 +4,7 @@ Welcome! This repository is my personal collection of studies and hands-on exerc
 
 Feel free to browse through the code. Whether you're a fellow student, an experienced developer, or just curious about Java, I hope you find something useful or interesting here.
 
+
 ## About This Repository
 
 The primary goal here is to document my progress and create a personal library of Java code snippets and solutions. The exercises cover a range of topics, including:
